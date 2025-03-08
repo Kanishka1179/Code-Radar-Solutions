@@ -1,4 +1,4 @@
-// Your code here...#include<stdio.h>
+#include<stdio.h>
 int main() {
 int x;
 scanf("%d", &x);
@@ -18,7 +18,7 @@ if (x=y!=z) {
 if (!x=y!=z) {
     printf("Scalene");
 }
-}
+
 
     return 0;
 }
