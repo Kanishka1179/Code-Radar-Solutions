@@ -9,13 +9,13 @@ scanf("%d", &y);
 int z;
 scanf("%d", &z);
 
-if (x=y=z) {
+if (x==y && x==z) {
     printf("Equilateral");
 }
-if (x=y!=z) {
+if (x==y && x!=z) {
     printf("Isosceles");
 
-if (!x=y!=z) {
+else {
     printf("Scalene");
 }
 
