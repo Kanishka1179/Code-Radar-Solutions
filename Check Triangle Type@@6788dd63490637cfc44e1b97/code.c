@@ -18,7 +18,7 @@ if (x==y && x!=z) {
 else {
     printf("Scalene");
 }
-
+printf("%d   %d   %d\n", a,b,c);
 
     return 0;
 }
