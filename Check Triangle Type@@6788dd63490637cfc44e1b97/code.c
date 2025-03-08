@@ -13,7 +13,7 @@ if (x==y && x==z) {
     printf("Equilateral");
 }
 if (x==y && x!=z) {
-    printf("Isosceles");
+    printf("Isosceles");}
 
 else {
     printf("Scalene");
