@@ -14,11 +14,11 @@ if (x=y=z) {
 }
 if (x=y!=z) {
     printf("Isosceles");
+
 if (!x=y!=z) {
     printf("Scalene");
-
 }
-
+}
 
     return 0;
 }
