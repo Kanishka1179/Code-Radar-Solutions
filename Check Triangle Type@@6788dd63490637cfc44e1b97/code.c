@@ -1,24 +1,26 @@
-#include<stdio.h>
+#include <stdio.h>
+
 int main() {
-int x;
-scanf("%d", &x);
+    int x, y, z;
+    
+    // Taking input for three sides of the triangle
+    scanf("%d", &x);
+    scanf("%d", &y);
+    scanf("%d", &z);
 
-int y;
-scanf("%d", &y);
+    // Checking triangle type
+    if (x == y && y == z) {
+        printf("Equilateral\n");
+    } 
+    else if (x == y || y == z || x == z) {  // Fix for isosceles condition
+        printf("Isosceles\n");
+    } 
+    else {
+        printf("Scalene\n");
+    }
 
-int z;
-scanf("%d", &z);
-
-if (x==y && x==z) {
-    printf("Equilateral");
-}
-if (x==y && x!=z) {
-    printf("Isosceles");}
-
-else {
-    printf("Scalene");
-}
-printf("%d   %d   %d\n", x,y,z);
+    // Corrected printing of numbers with three spaces
+    printf("%d   %d   %d\n", x, y, z);
 
     return 0;
 }
