@@ -5,6 +5,7 @@ scanf("%d", &x);
 if (x>=90) {
         printf("A");
     }
+    int x;
  else if (x>=80 && X<90) {
         printf("B");
     }
