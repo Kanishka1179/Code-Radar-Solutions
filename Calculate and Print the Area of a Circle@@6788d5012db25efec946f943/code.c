@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
  float r;
- printf("enter the value of r: ");
+ printf("Input: ", r);
  scanf("%f", &r);
  float area;
  area=3.14*r*r;
