@@ -6,7 +6,7 @@ int x,y;
         printf("True\n");
     }
     else{
-        printf("False\n");
+        printf("False");
     }
     return 0;
 }
