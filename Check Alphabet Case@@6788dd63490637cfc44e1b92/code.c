@@ -6,6 +6,6 @@ int main() {
     {printf("Lowercase");}
 
     else if(alpha>= 'A' && alpha<= 'Z') 
-    {printf("Lowercase");}
+    {printf("Uppercase");}
     return 0;
 }
