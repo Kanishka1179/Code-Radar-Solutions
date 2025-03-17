@@ -14,6 +14,8 @@ int main() {
     float Marks;
     scanf("%f", &Marks);
 
+return 0;
+
     
 
 
